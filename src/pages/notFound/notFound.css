@@ -1,0 +1,7 @@
+.notFound_container{
+    display: grid;
+    place-content: center;
+}
+.notFound_container a{
+    margin-top: 3rem;
+}

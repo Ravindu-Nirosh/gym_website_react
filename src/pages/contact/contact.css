@@ -1,0 +1,25 @@
+.contact_container{
+    display: flex;
+    margin-top: 15rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.contact_container .icons{
+    width: 5rem;
+    height: 5rem;
+    opacity: .6;
+    transition: var(--transition);
+}
+
+.contact_container .icons a{
+    font-size: 5rem;
+}
+
+.contact_container .icons:hover{
+   opacity: 1;
+}
+
+

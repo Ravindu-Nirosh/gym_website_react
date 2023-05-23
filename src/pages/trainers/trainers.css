@@ -1,0 +1,70 @@
+.trainer_container{
+    margin-block-start: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.trainer_container .image{
+    width: 15rem;
+    height: 15rem;
+    margin-inline:auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid var(--color-gray-100);
+}
+
+.tariners_card{
+    width: 25rem;
+    height: 100%;
+}
+
+.tariners_card h5{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.scical_container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.scical_container a{
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+
+
+.scical_container a:hover{
+    animation: shake 0.25s;
+    
+}
+
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+        transform: scale(1.2);
+    }
+    20%{
+        transform: rotate(-15deg);
+
+    }
+    30%{
+        transform: rotate(15deg);
+        
+    }
+    40%{
+        transform: rotate(-15deg);
+        
+    }
+    
+}

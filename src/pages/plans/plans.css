@@ -1,0 +1,38 @@
+.plans_container{
+    margin-block-start: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10rem;
+}
+
+.plans_container *{
+    margin-top: 2rem;
+}
+
+.btn.chooes_plane{
+    margin-top: 2rem;
+}
+
+.feture_disable{
+    text-decoration: line-through;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.feture_avalbale{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1024px){
+   .plans_container{
+    grid-template-columns: 1fr;
+    padding-inline: 10rem;
+   }
+}
+
+@media screen and (max-width:425px){
+    .plans_container{
+        padding-inline: 0;
+       }
+}
